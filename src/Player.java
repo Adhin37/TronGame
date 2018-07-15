@@ -202,16 +202,16 @@ class GameOrder {
 		return this.followOrder(this.calcBestMove(this.myLightRunnerID));
 	}
 
-	private int score() {
-		int score = 0;
-		// if (game.win?(@player)){
-		// score= 10;
-		// }
-		// else if (game.win?(@opponent)){
-		// score= -10;
-		// }
-		return score;
-	}
+	// private int score() {
+	// 	int score = 0;
+	// 	if (game.win?(@player)){
+	// 	score= 10;
+	// 	}
+	// 	else if (game.win?(@opponent)){
+	// 	score= -10;
+	// 	}
+	// 	return score;
+	// }
 
 	private int predictFuture(final ArrayList<Integer> bestMoveArray, final int currentY, final int currentX) {
 		int bestFuture;
