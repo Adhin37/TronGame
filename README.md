@@ -1,5 +1,6 @@
 # TronGame
 Codingame Challenge
-Deux phases :
+
+## Deux phases :
 - Comprendre le challenge
 - Faire une IA
